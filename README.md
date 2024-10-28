@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pokémon AI Battle
+
+![Pokémon Battle](https://media.discordapp.net/attachments/892469438358642749/1300433037158252555/pokemon.gif?ex=6720d224&is=671f80a4&hm=d0074e22af9d637fd765284d0244a539e1b56fd8aec4d1cdceaf179efe0070ea&=&width=700&height=700)
+
+This project is a Pokémon battle simulation built with **Next.js 14** and **Shadcn UI**. Create and customize your Pokémon from Generation 1, equip it with moves of various types, and face off against a smart AI opponent in epic battles!
+
+## Features
+
+- **Choose Your Pokémon**: Select from the full Generation 1 Pokédex.
+- **Attack Types**: Each move has a specific type (e.g., Water, Fire, Electric), and battles take these types into account, adding depth to combat strategy.
+- **AI Battles**: Engage in challenging battles against an AI with smart tactics.
+- **Modern UI**: Styled with Shadcn for a sleek and interactive experience.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Make sure you have **Node.js** installed.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository.
+2. Navigate into the project directory.
+3. Install dependencies with `npm install` or `yarn`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Running the Project
 
-## Learn More
+Start the development server with `npm run start` or `yarn start`, then open your browser to `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js 14** - A React-based framework optimized for server-side rendering.
+- **Shadcn UI** - Provides modern and clean components.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Enjoy strategizing with type advantages, customizing your Pokémon, and testing your skills in battle!
